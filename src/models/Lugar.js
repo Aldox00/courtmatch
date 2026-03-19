@@ -6,6 +6,7 @@ const Lugar = sequelize.define('Lugar', {
         type: DataTypes.INTEGER,
         primaryKey: true,
         autoIncrement: true
+        
     },
     nombre: {
         type: DataTypes.STRING,
